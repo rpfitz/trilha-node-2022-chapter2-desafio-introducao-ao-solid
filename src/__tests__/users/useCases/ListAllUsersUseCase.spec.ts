@@ -43,7 +43,7 @@ describe("ListAllUsersUseCase", () => {
         }),
         user2,
         user3,
-      ])
+      ]),
     );
   });
 

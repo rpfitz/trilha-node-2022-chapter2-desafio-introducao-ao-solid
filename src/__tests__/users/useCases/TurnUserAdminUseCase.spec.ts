@@ -22,7 +22,7 @@ describe("TurnUserAdminUseCase", () => {
 
     expect(updatedUser.admin).toBe(true);
     expect(usersRepository.list()).toStrictEqual(
-      expect.arrayContaining([updatedUser])
+      expect.arrayContaining([updatedUser]),
     );
   });
 
